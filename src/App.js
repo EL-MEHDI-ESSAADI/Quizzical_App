@@ -55,8 +55,8 @@ function App() {
 
    return (
       <div>
-         <img src="./assets/tobBlob.png" alt="blob" className="bolb topBlob" />
-         <img src="./assets/bottomBlob.png" alt="blob" className="bolb bottomBlob" />
+         <img src="/assets/tobBlob.png" alt="blob" className="bolb topBlob" />
+         <img src="/assets/bottomBlob.png" alt="blob" className="bolb bottomBlob" />
          <div className="container">
             {!isQuizStarted ? (
                <IntroPage startQuiz={startQuiz} />

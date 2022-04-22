@@ -9,7 +9,7 @@ export default function QuizPage(props) {
    if (props.areQuizzesLoading) {
       return (
          <div className="quizPage">
-            <img src="./assets/Winter.gif" alt="loading.." />
+            <img src="/assets/Winter.gif" alt="loading.." />
          </div>
       );
    } else {
